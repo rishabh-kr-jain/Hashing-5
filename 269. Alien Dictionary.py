@@ -1,3 +1,5 @@
+#time:O(number of words*average size of words)
+#space:O(1)
 class Solution:
     def alienOrder(self, words: List[str]) -> str:
         hmap= defaultdict(list)
